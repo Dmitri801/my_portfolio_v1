@@ -1,0 +1,188 @@
+$primary-color: #282828;
+$secondary-color: #116466;
+$primary-light: #d1e8e2;
+$secondary-light: #ffcb9a;
+$emphasis-color: #d9b08c;
+$show-home-image: true;
+$home-image: url("../static/background.jpg");
+$background-opacity: 0.9;
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+@mixin homeBackground {
+  #bg-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: $home-image;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    transition-property: background-position;
+    background-repeat: repeat;
+    z-index: 2;
+    animation: animate-background-position 20s alternate infinite;
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba($primary-color, 0.8);
+      // backface-visibility: hidden;
+      animation: animate-background 20s alternate infinite;
+    }
+  }
+}
+
+@mixin cardHover {
+  transform: scale(1.05);
+  border-bottom: $emphasis-color 5px solid;
+}
+
+@mixin downloadBtnBorder {
+  border: 2px solid $primary-light;
+  animation: animate-border 20s alternate infinite;
+}
+
+@mixin homeName {
+  color: $secondary-color;
+  animation: animate-name 20s alternate infinite;
+}
+
+@mixin emphasis {
+  color: $emphasis-color;
+  animation: animate-name 20s alternate infinite;
+}
+
+@mixin hover {
+  color: $secondary-color;
+  animation: animate-hover 5s alternate infinite;
+}
+
+@mixin pictureHover {
+  opacity: 0.5;
+  animation: animate-picture-hover 5s alternate infinite;
+}
+
+// Keyframes
+
+@keyframes animate-background-position {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes animate-background {
+  0% {
+    background: rgba($primary-color, 0.9);
+  }
+
+  70% {
+    background: rgba($primary-color, 0.3);
+  }
+  100% {
+    background: rgba($primary-color, 0.9);
+  }
+}
+@keyframes animate-hover {
+  0% {
+    color: $secondary-color;
+  }
+  70% {
+    color: $emphasis-color;
+  }
+  100% {
+    color: $secondary-color;
+  }
+}
+
+@keyframes animate-picture-hover {
+  0% {
+    opacity: 0.5;
+    border-color: $secondary-color;
+  }
+  70% {
+    opacity: 0.9;
+    border-color: $emphasis-color;
+  }
+  100% {
+    opacity: 0.5;
+    border-color: $secondary-color;
+  }
+}
+
+@keyframes animate-background-hover {
+  0% {
+    background-color: $secondary-color;
+  }
+  70% {
+    background-color: $emphasis-color;
+  }
+  100% {
+    background-color: $secondary-color;
+  }
+}
+
+@keyframes animate-name {
+  0% {
+    color: $secondary-color;
+  }
+  70% {
+    color: $secondary-light;
+  }
+  100% {
+    color: $secondary-color;
+  }
+}
+
+@keyframes animate-border {
+  0% {
+    border: 0.5px solid $primary-light;
+  }
+  70% {
+    border: 0.5px solid $secondary-light;
+  }
+  100% {
+    border: 0.5px solid $primary-light;
+  }
+}
+
+@keyframes animate-emphasis {
+  0% {
+    color: $emphasis-color;
+  }
+  70% {
+    color: $secondary-light;
+  }
+  100% {
+    color: $emphasis-color;
+  }
+}
+
+// Media Query Mixins
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+@mixin mediaMd {
+  @media screen and (max-width: 940px) {
+    @content;
+  }
+}
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXlg {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}
