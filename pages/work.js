@@ -10,6 +10,7 @@ import WouldYouRather from "../components/WouldYouRather";
 import DevMuse from "../components/DevMuse";
 import QuizU from "../components/QuizU";
 import Portfolio from "../components/Portfolio";
+import Newzette from "../components/Newzette";
 class Work extends React.Component {
   state = {
     petFamShow: false,
@@ -79,7 +80,7 @@ class Work extends React.Component {
             className="projects"
             style={{ padding: "20px" }}
             container
-            spacing={24}
+            spacing={48}
           >
             <Zoom when={wouldYouRatherShow}>
               <div>
@@ -91,17 +92,22 @@ class Work extends React.Component {
                 <PetFam />
               </div>
             </Fade>
-            <Fade when={devMuseShow}>
+            <Zoom duration={500} when={devMuseShow} delay={200}>
               <div>
                 <DevMuse />
               </div>
-            </Fade>
-            <Fade>
+            </Zoom>
+            <Fade delay={500} duration={1000}>
               <div>
                 <QuizU />
               </div>
             </Fade>
-            <Fade>
+            <Zoom duration={500}>
+              <div>
+                <Newzette />
+              </div>
+            </Zoom>
+            <Fade duration={500} delay={400}>
               <div>
                 <Portfolio />
               </div>

@@ -41,7 +41,7 @@ class Bio extends React.Component {
                 ReactJS, React Native, and NodeJS. My passion is to build
                 engaging, interactive, and inspiring user interfaces, while
                 having a ton of fun doing it. I plan to continue expanding my
-                skills and be apart of the technologies that will shape our
+                skills and be a part of the technologies that will shape our
                 lives in the future. Enjoy your stay!
               </p>
             </div>
@@ -84,7 +84,7 @@ class Bio extends React.Component {
               <h6>Customer Service</h6>
               <p>
                 I'm currently working for Netflix Customer Service, and have
-                been apart of their Technical Support Research training. I have
+                been a part of their Technical Support Research training. I have
                 also had the opportunity to mentor multiple new hires on my
                 team, this has given me the experience of working on teams, and
                 even taking up the leadership role of the team I'm on.

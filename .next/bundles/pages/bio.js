@@ -13,7 +13,7 @@ __NEXT_REGISTER_PAGE('/bio', function() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames__ = __webpack_require__("./node_modules/classnames/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_classnames__);
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/components/Header.js";
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/Header.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -595,7 +595,7 @@ var _url = __webpack_require__("./node_modules/url/url.js");
 
 var _react = _interopRequireWildcard(__webpack_require__("./node_modules/react/index.js"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/prop-types/index.js"));
+var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/prop-types/index.js"));
 
 var _propTypesExact = _interopRequireDefault(__webpack_require__("./node_modules/prop-types-exact/build/index.js"));
 
@@ -1249,7 +1249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header__ = __webpack_require__("./components/Header.js");
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/pages/bio.js";
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/pages/bio.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -1372,7 +1372,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 36
         }
-      }, "Hey there, welcome to my page! My names Dmitriy, and I have been developing websites for around 2 years. My specializations include HTML, CSS, and various Javascript libraries and frameworks. The main technologies i'm working with currently are ReactJS, React Native, and NodeJS. My passion is to build engaging, interactive, and inspiring user interfaces, while having a ton of fun doing it. I plan to continue expanding my skills and be apart of the technologies that will shape our lives in the future. Enjoy your stay!")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      }, "Hey there, welcome to my page! My names Dmitriy, and I have been developing websites for around 2 years. My specializations include HTML, CSS, and various Javascript libraries and frameworks. The main technologies i'm working with currently are ReactJS, React Native, and NodeJS. My passion is to build engaging, interactive, and inspiring user interfaces, while having a ton of fun doing it. I plan to continue expanding my skills and be a part of the technologies that will shape our lives in the future. Enjoy your stay!")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "job job-1",
         __source: {
           fileName: _jsxFileName,
@@ -1454,7 +1454,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 85
         }
-      }, "I'm currently working for Netflix Customer Service, and have been apart of their Technical Support Research training. I have also had the opportunity to mentor multiple new hires on my team, this has given me the experience of working on teams, and even taking up the leadership role of the team I'm on.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("footer", {
+      }, "I'm currently working for Netflix Customer Service, and have been a part of their Technical Support Research training. I have also had the opportunity to mentor multiple new hires on my team, this has given me the experience of working on teams, and even taking up the leadership role of the team I'm on.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("footer", {
         id: "main-footer",
         __source: {
           fileName: _jsxFileName,

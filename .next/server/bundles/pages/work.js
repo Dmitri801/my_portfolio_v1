@@ -80,7 +80,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid__ = __webpack_require__("@material-ui/core/Grid");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid__);
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/components/DevMuse.js";
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/DevMuse.js";
 
 
 
@@ -223,7 +223,7 @@ var DevMuse = function DevMuse() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames__ = __webpack_require__("classnames");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_classnames__);
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/components/Header.js";
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/Header.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -462,6 +462,147 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./components/Newzette.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid__ = __webpack_require__("@material-ui/core/Grid");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid__);
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/Newzette.js";
+
+
+
+var Newzette = function Newzette() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default.a, {
+    className: "projects",
+    container: true,
+    spacing: 8,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default.a, {
+    item: true,
+    md: 6,
+    xs: 12,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "img-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "Newzette"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }, "Newzette is the epitome of a single page application, offering 4 different views all on one route. I built this project in around 3 hours, and it lets you search the NewsAPI in a fun, quick way so you can get your daily news. Choose from searching top headlines, or random queries from one of the top news APIs in the world!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    }
+  }, "Technologies:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    }
+  }, "NextJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    }
+  }, "React-Reveal"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    }
+  }, "Sass"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    }
+  }, "NodeJS/Express"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    }
+  }, "Asynchronous Javascript w/ isomorphic unfetch"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default.a, {
+    item: true,
+    md: 6,
+    xs: 12,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    "aria-label": "Newzette Page",
+    target: "_blank",
+    href: "https://newzette.now.sh/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    className: "showcase-img",
+    src: "../static/newzette.png",
+    alt: "NEWZ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    "aria-label": "Newzette Page",
+    target: "_blank",
+    href: "https://newzette.now.sh",
+    className: "btn btn-light",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    className: "fas fa-eye",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    }
+  }), " Newzette"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    "aria-label": "Newzette github Page",
+    target: "_blank",
+    href: "https://github.com/Dmitri801/newzette",
+    className: "btn btn-dark",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    className: "fab fa-github",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    }
+  }), " GitHub"))));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Newzette);
+
+/***/ }),
+
 /***/ "./components/PetFam.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -472,7 +613,7 @@ function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_spring__ = __webpack_require__("react-spring");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_spring___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_spring__);
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/components/PetFam.js";
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/PetFam.js";
 
 
 
@@ -611,7 +752,7 @@ var PetFam = function PetFam(_ref) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__material_ui_core_Grid__ = __webpack_require__("@material-ui/core/Grid");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__material_ui_core_Grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Grid__);
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/components/Portfolio.js";
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/Portfolio.js";
 
 
 
@@ -627,86 +768,23 @@ var Portfolio = function Portfolio() {
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Grid___default.a, {
     item: true,
-    xs: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "img-content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, "The website you see here..."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, "Guess this site is pretty cool right? This site uses NextJS on the front end, which is a minimalistic framework for server-rendered React applications. Its also plugged into a super simple express server that registers a service worker, and handles that resume download. NextJS , and technologies like it (PWAs or progressive web apps), might just be the next best thing in web development."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    }
-  }, "Technologies:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  }, "NextJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
-  }, "Nextjs-sass"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    }
-  }, "Service Workers"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    }
-  }, "Sass"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    }
-  }, "NodeJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    }
-  }, "Express"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    }
-  }, "Now"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Grid___default.a, {
-    item: true,
     md: 6,
     xs: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 7
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 8
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     "aria-label": "Portfolio Page",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 9
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     className: "showcase-img",
@@ -714,26 +792,26 @@ var Portfolio = function Portfolio() {
     alt: "PetFam",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 10
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 17
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     "aria-label": "Portfolio Page",
     className: "btn btn-light",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 18
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
     className: "fas fa-eye",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 19
     }
   }), " Portfolio")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     "aria-label": "Portfolio github Page",
@@ -742,15 +820,78 @@ var Portfolio = function Portfolio() {
     className: "btn btn-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 22
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
     className: "fab fa-github",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 28
+    }
+  }), " GitHub")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_Grid___default.a, {
+    item: true,
+    xs: 6,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "img-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    }
+  }, "The website you see here..."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    }
+  }, "Guess this site is pretty cool right? This site uses NextJS on the front end, which is a minimalistic framework for server-rendered React applications. Its also plugged into a super simple express server that registers a service worker, and handles that resume download. NextJS , and technologies like it (PWAs or progressive web apps), might just be the next best thing in web development."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    }
+  }, "Technologies:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    }
+  }, "NextJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    }
+  }, "Nextjs-sass"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    }
+  }, "Service Workers"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    }
+  }, "Sass"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    }
+  }, "NodeJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    }
+  }, "Express"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 49
     }
-  }), " GitHub")));
+  }, "Now"))));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Portfolio);
@@ -767,7 +908,7 @@ var Portfolio = function Portfolio() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_spring__ = __webpack_require__("react-spring");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_spring___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_spring__);
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/components/QuizU.js";
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/QuizU.js";
 
 
 
@@ -910,7 +1051,7 @@ var PetFam = function PetFam(_ref) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid__ = __webpack_require__("@material-ui/core/Grid");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid__);
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/components/WouldYouRather.js";
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/WouldYouRather.js";
 
 
 
@@ -1061,7 +1202,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_DevMuse__ = __webpack_require__("./components/DevMuse.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_QuizU__ = __webpack_require__("./components/QuizU.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_Portfolio__ = __webpack_require__("./components/Portfolio.js");
-var _jsxFileName = "/Users/dmitriysharshiner/Desktop/myPortfolioV1/pages/work.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_Newzette__ = __webpack_require__("./components/Newzette.js");
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/pages/work.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -1076,6 +1218,7 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 
 
 
@@ -1182,43 +1325,43 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 71
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0__components_Header__["a" /* default */], {
         work: work,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 72
         }
       }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("main", {
         id: "work",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 73
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h3", {
         className: "bio-heading text-primary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 74
         }
       }, "My ", __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
         className: "text-secondary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 75
         }
       }, "Work")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h2", {
         className: "sm-bio-heading",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 77
         }
       }, "Check Out A Few Of My Projects.."), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("hr", {
         className: "emphasis",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 78
         }
       }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_Grid___default.a, {
         className: "projects",
@@ -1226,95 +1369,117 @@ function (_React$Component) {
           padding: "20px"
         },
         container: true,
-        spacing: 24,
+        spacing: 48,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 79
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_react_reveal_Zoom___default.a, {
         when: wouldYouRatherShow,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 85
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 86
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__components_WouldYouRather__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 87
         }
       }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_reveal_Fade___default.a, {
         big: true,
         when: petFamShow,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 90
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_PetFam__["a" /* default */], {
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 91
         }
-      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_reveal_Fade___default.a, {
-        when: devMuseShow,
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_PetFam__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 92
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_react_reveal_Zoom___default.a, {
+        duration: 500,
+        when: devMuseShow,
+        delay: 200,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 95
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__components_DevMuse__["a" /* default */], {
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 96
         }
-      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_reveal_Fade___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__components_DevMuse__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 97
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_reveal_Fade___default.a, {
+        delay: 500,
+        duration: 1000,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 100
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_QuizU__["a" /* default */], {
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 101
         }
-      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_reveal_Fade___default.a, {
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_QuizU__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 102
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_react_reveal_Zoom___default.a, {
+        duration: 500,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 105
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__components_Portfolio__["a" /* default */], {
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 106
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__components_Newzette__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        }
+      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_reveal_Fade___default.a, {
+        duration: 500,
+        delay: 400,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__components_Portfolio__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112
         }
       }))))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("footer", {
         id: "main-footer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 117
         }
       }, "Copyright \xA9 2018"));
     }
