@@ -53,7 +53,7 @@ class Bio extends React.Component {
                 check out my rendition of the Would You Rather? Project
                 <a
                   target="_blank"
-                  href="https://would-you-rather--bydmi.herokuapp.com"
+                  href="http://would_you_rather.surge.sh/"
                   className="text-secondary"
                 >
                   {" "}

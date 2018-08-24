@@ -27,14 +27,14 @@ const WouldYouRather = () => {
         <a
           aria-label="WYR Page"
           target="_blank"
-          href="https://would-you-rather--bydmi.herokuapp.com/"
+          href="http://would_you_rather.surge.sh/"
         >
           <img className="showcase-img" src="../static/wur.jpg" alt="WYR" />
         </a>
         <a
           aria-label="WYR Page"
           target="_blank"
-          href="https://would-you-rather--bydmi.herokuapp.com/"
+          href="http://would_you_rather.surge.sh/"
           className="btn btn-light"
         >
           <i className="fas fa-eye" /> Would You Rather?

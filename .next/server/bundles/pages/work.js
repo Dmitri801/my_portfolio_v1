@@ -1129,7 +1129,7 @@ var WouldYouRather = function WouldYouRather() {
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     "aria-label": "WYR Page",
     target: "_blank",
-    href: "https://would-you-rather--bydmi.herokuapp.com/",
+    href: "http://would_you_rather.surge.sh/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -1145,7 +1145,7 @@ var WouldYouRather = function WouldYouRather() {
   })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     "aria-label": "WYR Page",
     target: "_blank",
-    href: "https://would-you-rather--bydmi.herokuapp.com/",
+    href: "http://would_you_rather.surge.sh/",
     className: "btn btn-light",
     __source: {
       fileName: _jsxFileName,
@@ -1369,7 +1369,7 @@ function (_React$Component) {
           padding: "20px"
         },
         container: true,
-        spacing: 48,
+        spacing: 24,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79

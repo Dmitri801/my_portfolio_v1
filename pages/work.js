@@ -80,7 +80,7 @@ class Work extends React.Component {
             className="projects"
             style={{ padding: "20px" }}
             container
-            spacing={48}
+            spacing={24}
           >
             <Zoom when={wouldYouRatherShow}>
               <div>

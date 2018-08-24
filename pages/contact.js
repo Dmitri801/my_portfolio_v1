@@ -10,7 +10,7 @@ class Contact extends React.Component {
             Contact <span className="text-secondary">Me</span>
           </h3>
           <h2 className="sm-bio-heading">
-            Get In Touch And Lets Create Together
+            Get In Touch And Let's Create Together
           </h2>
           <hr className="emphasis" />
           <div className="boxes">
