@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -321,7 +321,106 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./pages/contact.js":
+/***/ "./components/MainContent.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/components/MainContent.js";
+
+
+var MainContent = function MainContent() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("main", {
+    id: "home",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    className: "lg-heading",
+    id: "top-heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, "Hey"), ","), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    className: "lg-heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, "My Name is ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    className: "homeName",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, "Dmitriy"), "."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+    className: "sm-heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "Web ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    className: "text-light",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }, "/"), " Mobile App", " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    className: "emphasis",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }, "Developer")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "icons",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    "aria-label": "Linked In Page",
+    target: "_blank",
+    href: "https://www.linkedin.com/in/dmitriy-sharshiner-35897626/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    className: "fab fa-linkedin fa-2x",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    "aria-label": "Github Page",
+    target: "_blank",
+    href: "https://github.com/Dmitri801",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    className: "fab fa-github fa-2x",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    }
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (MainContent);
+
+/***/ }),
+
+/***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -329,7 +428,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header__ = __webpack_require__("./components/Header.js");
-var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/pages/contact.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_MainContent__ = __webpack_require__("./components/MainContent.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scss_style_scss__ = __webpack_require__("./scss/style.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scss_style_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__scss_style_scss__);
+var _jsxFileName = "/Users/dmi/Desktop/my_portfolio_v1/pages/index.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -348,122 +450,85 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var Contact =
+
+
+var Index =
 /*#__PURE__*/
 function (_React$Component) {
-  _inherits(Contact, _React$Component);
+  _inherits(Index, _React$Component);
 
-  function Contact() {
-    _classCallCheck(this, Contact);
+  function Index() {
+    _classCallCheck(this, Index);
 
-    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Index.__proto__ || Object.getPrototypeOf(Index)).apply(this, arguments));
   }
 
-  _createClass(Contact, [{
+  _createClass(Index, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js").catch(function (err) {
+          return console.error("Service worker registration failed", err);
+        });
+      } else {
+        console.log("Service worker not supported");
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
-      var contact = "current";
+      var index = "current";
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Header__["a" /* default */], {
-        contact: contact,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 7
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("main", {
-        id: "work",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-        className: "bio-heading text-primary",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        }
-      }, "Contact ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-        className: "text-secondary",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        }
-      }, "Me")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-        className: "sm-bio-heading",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        }
-      }, "Get In Touch And Let's Create Together"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
-        className: "emphasis",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        className: "boxes",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-        className: "text-secondary",
+        className: "homeWrapper",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         }
-      }, "Email:"), " dsharsh@hotmail.com"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        id: "bg-img",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "overlay",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-        className: "text-secondary",
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Header__["a" /* default */], {
+        index: index,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
         }
-      }, "Phone Number:"), " 801-856-6823"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_MainContent__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 22
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-        className: "text-secondary",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        }
-      }, "Address:"), " 480 Brandt Ct, Salt Lake City, UT 84107"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("footer", {
-        id: "main-footer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        }
-      }, "Copyright \xA9 2018"));
+      })));
     }
   }]);
 
-  return Contact;
+  return Index;
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Contact);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 6:
+/***/ "./scss/style.scss":
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/contact.js");
+module.exports = __webpack_require__("./pages/index.js");
 
 
 /***/ }),
@@ -490,4 +555,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=contact.js.map
+//# sourceMappingURL=index.js.map
